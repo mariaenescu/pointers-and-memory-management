@@ -32,28 +32,4 @@ Sensors that contain erroneous values will be removed from the vector. A sensor 
 5. Exit:
 Upon receiving this command, the memory is deallocated, and the program stops.
 
-File Format for Input: Binary format;
-
-Example input file:
-2 1 12.3 -50 500 30 70 4 4 5 6 7 0 23.5 80 20 0 4 0 1 2 3
-
-Explanation of the file:
-2 // number of sensors
-
-1 // PMU sensor
-
-12.3 -50 500 30 70 // PMU sensor data
-
-4 // number of operations to be applied to PMU sensor data
-
-4 5 6 7 // operations to be applied
-
-0 // Tire sensor
-
-23.5 80 20 0 // Tire sensor data
-
-4 // number of operations to be applied to Tire sensor data
-
-0 1 2 3 // operations to be applied
-
-The binary file is received as an argument.
+File Format for Input: Binary format
