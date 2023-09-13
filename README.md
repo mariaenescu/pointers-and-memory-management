@@ -1,5 +1,4 @@
 # Pointers-and-Memory-Management
-# Homework
 
 The engineers at Ferrari need your help to win races this season. They have realized that one of the problems with their car is caused by faulty sensors (purchased from AliExpress) that transmit incorrect data to the engineering team. Help the team identify and eliminate the erroneous data to win races.
 
